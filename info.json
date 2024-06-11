@@ -1,0 +1,15 @@
+{
+  "name": "ak-se-rebalance",
+  "version": "0.0.1",
+  "title": "Space Exploration Rebalancing",
+  "author": "AkBKukU",
+  "contact": "",
+  "homepage": "https://github.com/AkBKukU/ak-se-rebalance",
+  "description": "Rebalances different technologies and ingrediants for Space Exploration to make the game to allow earlier access to some things.",
+  "dependencies": [
+    "base >= 1.1.0",
+    "space-exploration >= 0.6",
+    "space-exploration-postprocess >= 0.6"
+  ],
+  "factorio_version": "1.1"
+}
