@@ -16,7 +16,7 @@ Now I'm going to contradict the purpose of this mod and say you *should withhold
 
 \*50's Radio Announcer Voice\*
 
-*In a stunning scientific break through, researchers have discovered a new way to secure your whatsits and doodads to a moving conveyor is the cold depths of space with the marvelous technology of thermomagnetics! With new ferrofluid filled bells wizzing about, you needn't fear about flinging your hard earned products off into the void. Available now at your nearest mod portal!*
+*In a stunning scientific break through, researchers have discovered a new way to secure your whatsits and doodads to a moving conveyor in the cold depths of space with the marvelous technology of thermomagnetics! With new ferrofluid filled bells wizzing about, you needn't fear about flinging your hard earned products off into the void. Available now at your nearest mod portal!*
 
 There's your lore reason, put more plainly this mod offers a vulcanite based recipe set for deep space belts so you can gain access to them earlier. They are **way** too far into the tech tree in the mod, it makes them basically useless. You get every other kind of production technology before them and will be set in your designs. The mod isn't about raw item throughput anyway, most sciences use less than 1000 packs and just setting up the bare infrastructure is the challenge itself.
 
