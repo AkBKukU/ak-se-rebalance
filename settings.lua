@@ -8,6 +8,13 @@ data:extend({
     },
     {
         type = "string-setting",
+        name = "ak-bots-rebalance-research",
+        setting_type = "startup",
+        default_value = "base",
+	allowed_values = {"base", "disable"}
+    },
+    {
+        type = "string-setting",
         name = "ak-deep-space-belt-rebalance",
         setting_type = "startup",
         default_value = "thermo",

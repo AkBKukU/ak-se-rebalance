@@ -12,6 +12,13 @@ There are two options for the Spidertron:
 
 Now I'm going to contradict the purpose of this mod and say you *should withhold* from using the Spidertron for at least your first trip into space and planet output building. To spoil why, the Spidertron is both "free air" in space, and a risk free way of building out on remote planets. It is extremely powerful in Space Exploration. By using it before those points you deprive yourself what is actually an interesting challenge that *is fun* to solve. However, I'm not your parents trying to get you to eat your veggies, if you want it before that I've got you covered. I just don't recommend it.
 
+## Logistics System
+
+Withholding logistics chests is very punishing in a mod that adds new and extremely complicated recipes for required items/buildings. Even the mod itself acknowledges this by giving you a handful of requester chests before you leave Nauvis. The only thing having logistics early does is give you an alternative to space belts in your first trip to orbit. I would rather see the mod add space bots as a whole new category to address this(I mean, the flying robot frame shows a *fan* in it, that's not gonna fly in space.)
+
+This mod adds an option to return the logistics system research to an approximate point to the base game. It's slightly earlier because there is no terrestrial utility science.
+
+
 ## Deep Space Belts
 
 \*50's Radio Announcer Voice\*
