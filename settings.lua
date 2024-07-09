@@ -22,3 +22,15 @@ data:extend({
     }
 })
 
+
+if data.raw["double-setting"]["robot-attrition-factor"] ~= nil then
+data:extend({
+    {
+        type = "string-setting",
+        name = "ak-bots-rebalance-attrition-research",
+        setting_type = "startup",
+        default_value = "cheap",
+	allowed_values = {"cheap", "disable"}
+    }
+})
+end

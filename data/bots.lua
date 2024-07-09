@@ -14,4 +14,20 @@ if settings.startup["ak-bots-rebalance-research"].value == "base" then
 
 -- Research Prerequisites
 	data.raw.technology["logistic-system"].prerequisites = {"logistic-robotics","chemical-science-pack"}
+
+end
+
+
+if (mods or script.active_mods)["robot_attrition"] then
+if settings.startup["ak-bots-rebalance-attrition-research"].value == "cheap" then
+
+	data.raw.technology["robot-attrition-explosion-safety"].unit =
+	{
+		count_formula = "1",
+		time = 30,
+		ingredients = {
+			{ "automation-science-pack", 1 }
+		}
+	}
+end
 end

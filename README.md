@@ -18,6 +18,15 @@ Withholding logistics chests is very punishing in a mod that adds new and extrem
 
 This mod adds an option to return the logistics system research to an approximate point to the base game. It's slightly earlier because there is no terrestrial utility science.
 
+## Robot Attrition
+
+Oh boy, this one. Let's tackle this from a positive prospective because I have some strong feelings about this. Space Exploration requires the [Robot Attrition](https://mods.factorio.com/mod/robot_attrition) mod as a non-optional dependency. There is a future plan to make different planet surfaces harsher for robots which I agree could lead to interesting logistic challenges. In the current state all planets are equal and it only limits player freedom.
+
+As a workaround this mod changes the attrition factor setting to allow a `0` value (and sets that as the default value). This will stop bots from crashing. *If you had previously changed this value, you will need to manually set it to `0` to enable it.*
+
+Additionally it has an option to reduce the cost of the Swarm Safety research to the bare minimum. This research does not prevent bots from crashing, only preventing them from doing damage when they do. The safe bot limit is hard coded and can not be externally changed by other mods. It would be nice if it were exposed as a setting. Even if it was a hidden one to allow better interoperability with other mods.
+
+Robot Attrition can be removed from the Space Exploration mod manually by removing the handful of lines of code that read from it, but it's not permitted to distribute a modified version of the code with the current license. The rest of this mod will work with or without it present if you chose to hack it out.
 
 ## Deep Space Belts
 
