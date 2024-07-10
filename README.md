@@ -37,3 +37,17 @@ Robot Attrition can be removed from the Space Exploration mod manually by removi
 There's your lore reason, put more plainly this mod offers a vulcanite based recipe set for deep space belts so you can gain access to them earlier. They are **way** too far into the tech tree in the mod, it makes them basically useless. You get every other kind of production technology before them and will be set in your designs. The mod isn't about raw item throughput anyway, most sciences use less than 1000 packs and just setting up the bare infrastructure is the challenge itself.
 
 The implementation I've used here requires pyroflux instead of lubricant and other earlier ingredients, I wasn't joking about the pyroflux as ferrofluid lore either, if you squint right at [Wikipedia](https://en.wikipedia.org/wiki/Thermomagnetic_convection) it might even be actually possible. I've also added optional support for [AAI Loaders](https://mods.factorio.com/mod/aai-loaders), this also required changing the Express (Blue) Loader to be in line with the express belt research.
+
+## Production Blockage
+
+Several recipes in Space Exploration have production probabilities with multiple outputs. Particularly core mining. As the game progresses these minor imbalances in consumption vs. production of these can cause blockage with unused items. The mod already has two methods of alleviating this, being able to make landfill from a few more of the ores, and being able to vent water. These aren't complete solutions to this ongoing and indefinite problem. This mod attempts to provide additional options.
+
+### Evaporative Venting - Fluid Voiding
+
+All fluids can now be vented using the electric boiler. This method is a bit overkill, but this also makes it compatible with any other mods that may be added. The electric boiler also works in space as well so this is a nice all in one solution.
+
+This has not been as rigorously tested and may break with some mod combinations. Disabling it in the mod settings before adding other mods should fix it though.
+
+### Landfill Compression - Landfill Voiding
+
+Using the recycling facility you can now re-recycle landfill back into...landfill. With only 100 landfill you can create 1 brand new landfill. This was the easiest quick solution to allow permanently voiding some items produced by core mining.

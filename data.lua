@@ -1,0 +1,2 @@
+ 
+require("data/void.lua")

@@ -19,6 +19,20 @@ data:extend({
         setting_type = "startup",
         default_value = "thermo",
 	allowed_values = { "thermo", "disable"}
+    },
+    {
+        type = "string-setting",
+        name = "ak-fluid-venting",
+        setting_type = "startup",
+        default_value = "vent",
+	allowed_values = { "vent", "disable"}
+    },
+    {
+        type = "string-setting",
+        name = "ak-landfill-compression",
+        setting_type = "startup",
+        default_value = "compress",
+	allowed_values = { "compress", "disable"}
     }
 })
 
