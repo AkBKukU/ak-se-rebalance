@@ -51,3 +51,5 @@ This has not been as rigorously tested and may break with some mod combinations.
 ### Landfill Compression - Landfill Voiding
 
 Using the recycling facility you can now re-recycle landfill back into...landfill. With only 100 landfill you can create 1 brand new landfill. This was the easiest quick solution to allow permanently voiding some items produced by core mining.
+
+For completeness, the original landfill recipes have also been added to the recycler at 2x the speed since.

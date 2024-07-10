@@ -65,9 +65,92 @@ if settings.startup["ak-landfill-compression"].value == "compress" then
 
 	}})
 
+	-- Add standard recipe for to recycler
+	data:extend({
+	{
+	type = "recipe",
+	name = "ak-recycle-landfill",
+	category = "hard-recycling",
+	energy_required = 0.5,
+	enabled = false,
+	icons = {
+	{icon = data.raw.item.landfill.icon, icon_size = data.raw.item.landfill.icon_size},
+	{icon = data.raw.item.stone.icon, icon_size = data.raw.item.stone.icon_size, scale = 0.33*64/data.raw.item.landfill.icon_size},
+	},
+	ingredients =
+	{
+	{"stone", 50}
+	},
+	result= "landfill",
+	result_count = 1,
+	order = "z-a-b",
+	allow_decomposition = false,
+
+	}})
+
+	-- Add standard recipe for to recycler
+	data:extend({
+	{
+	type = "recipe",
+	name = "ak-recycle-sand",
+	category = "hard-recycling",
+	energy_required = 0.5,
+	enabled = false,
+	icons = {
+	{icon = data.raw.item.landfill.icon, icon_size = data.raw.item.landfill.icon_size},
+	{icon = data.raw.item.sand.icon, icon_size = data.raw.item.sand.icon_size, scale = 0.33*64/data.raw.item.landfill.icon_size},
+	},
+	ingredients =
+	{
+	{"sand", 200}
+	},
+	result= "landfill",
+	result_count = 1,
+	order = "z-a-b",
+	allow_decomposition = false,
+
+	}})
+
+	-- Add standard recipe for to recycler
+	data:extend({
+	{
+	type = "recipe",
+	name = "ak-recycle-coal",
+	category = "hard-recycling",
+	energy_required = 1,
+	enabled = false,
+	icons = {
+	{icon = data.raw.item.landfill.icon, icon_size = data.raw.item.landfill.icon_size},
+	{icon = data.raw.item.coal.icon, icon_size = data.raw.item.coal.icon_size, scale = 0.33*64/data.raw.item.landfill.icon_size},
+	},
+	ingredients =
+	{
+	{"coal", 50}
+	},
+	result= "landfill",
+	result_count = 1,
+	order = "z-a-b",
+	allow_decomposition = false,
+
+	}})
+
+
+
 
 	table.insert(
 		data.raw.technology["se-recycling-facility"].effects,
 		{ type = "unlock-recipe", recipe = "ak-landfill-landfill"}
+	)
+	table.insert(
+		data.raw.technology["se-recycling-facility"].effects,
+		{ type = "unlock-recipe", recipe = "ak-recycle-landfill"}
+	)
+	table.insert(
+		data.raw.technology["se-recycling-facility"].effects,
+		{ type = "unlock-recipe", recipe = "ak-recycle-sand"}
+	)
+	table.insert(
+		data.raw.technology["se-recycling-facility"].effects,
+		{ type = "unlock-recipe", recipe = "ak-recycle-coal"}
 	)
 end
